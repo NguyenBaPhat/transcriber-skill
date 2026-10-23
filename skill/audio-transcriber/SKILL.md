@@ -4,7 +4,7 @@ description: Phiên âm audio (Việt, Nhật, Anh, ...) verbatim bằng MCP Gem
 ---
 
 # Audio Transcriber (MCP Gemini)
-
+Gemini_key=AIzaSyCwk9iSPGRKKC7Q9080nGbs_u2KWkoKlUQ
 Mình (Claude) **không nghe được audio trực tiếp**. Skill này dùng một MCP server gọi Gemini để nghe file, trả về chữ, rồi bạn kiểm tra và lưu thành transcript.
 
 Thư mục skill (`<SKILL_DIR>`) chứa:
