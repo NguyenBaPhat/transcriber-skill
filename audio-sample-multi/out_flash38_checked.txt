@@ -1,0 +1,64 @@
+[00:00.0] Speaker 1: duce ourselves.
+[00:01.3] Speaker 2: Yeah, that's a good plan.
+[00:02.8] Speaker 1: And, uh, with name and what your function is. So maybe we start with you?
+[00:07.0] Speaker 3: Okay. Yeah, my name is Francina, and I'm, uh, an user interface— my role is
+[00:13.0] Speaker 3: Uh, the main responsibility is user interface,
+[00:16.6] Speaker 2: Mm-hm.
+[00:17.0] Speaker 3: and my role is to design a television remote control.
+[00:21.2] Speaker 2: Mm-hm.
+[00:22.0] Speaker 1: Okay.
+[00:23.7] Speaker 2: And I'm a marketing person. I want to figure out how to sell them.
+[00:27.4] Speaker 1: Mm-hm. And your name is?
+[00:29.0] Speaker 2: My name is Eileen.
+[00:30.4] Speaker 1: Okay.
+[00:31.9] Speaker 4: Yeah, uh, I'm Jhanvi. I'm, um— my role is industrial designer and my responsibilities are
+[00:40.4] Speaker 4: Uh, uh, uh, deal with the technical functional designs and specifications of user interface and dealing with user interface design.
+[00:48.3] Speaker 1: Very good. And as you already know, I'm Betsy. I'm the project manager for today.
+[00:53.4] Speaker 1: So why don't we look at the presentation to see what we really are supposed to do?
+[00:58.7] Speaker 2: Okay.
+[01:00.9] Speaker 1: Um, here's the opening, acquaintance, tool training.
+[01:05.8] Speaker 1: Well, the tools, uh, I think we already— I guess the tool is really our— the computer,
+[01:11.4] Speaker 2: Mm-hm.
+[01:11.7] Speaker 1: as far as I can see.
+[01:13.4] Speaker 1: Uh, we get— each of us will get instructions, and we'll take it from there.
+[01:18.0] Speaker 1: Project plan, that falls under the same heading pretty much.
+[01:21.8] Speaker 1: Um, I don't think we have any great discussion at this point.
+[01:25.5] Speaker 2: No.
+[01:26.5] Speaker 1: Um,
+[01:29.1] Speaker 1: here is what this thing should be.
+[01:31.9] Speaker 1: This thing we are going to, um, uh, design is a new remote control.
+[01:37.6] Speaker 1: Uh, should be original,
+[01:39.6] Speaker 2: Mm-hm.
+[01:40.0] Speaker 1: trendy, and of course user-friendly.
+[01:45.3] Speaker 1: So maybe you want to make some notes of that.
+[02:08.5] Speaker 2: Okay.
+[02:14.6] Speaker 1: Okay?
+[02:15.5] Speaker 2: Mm-hm.
+[02:16.6] Speaker 1: All right.
+[02:17.5] Speaker 1: Here is what the functional design is supposed to achieve.
+[02:22.2] Speaker 1: Um, that is, it's going to be individual work, and then at the meeting we will discuss what, uh, we have come up with.
+[02:31.3] Speaker 1: The same goes for the conceptual design.
+[02:34.1] Speaker 1: There will be individual work which, and then discussion afterwards.
+[02:39.3] Speaker 1: Detailed design,
+[02:40.8] Speaker 2: Okay, so
+[02:41.2] Speaker 1: same thing basically.
+[02:42.5] Speaker 2: Three different types of design that we're going to be concerned with, okay.
+[02:46.8] Speaker 1: Mm-hm. Mm-hm.
+[02:56.2] Speaker 2: Functional, conceptual, and detailed.
+[03:04.1] Speaker 2: I can't write with this thing.
+[03:08.2] Speaker 2: Maybe we should redesign it.
+[03:11.4] Speaker 1: Yes.
+[03:12.7] Speaker 2: After we finish the remote control, we'll get to that.
+[03:15.8] Speaker 1: Yeah, okay.
+[03:18.0] Speaker 1: All right.
+[03:19.9] Speaker 1: Then tool training: try out the whiteboard, participants can draw their favorite animal.
+[03:24.6] Speaker 1: Does anybody want to go and see how the whiteboard works?
+[03:28.9] Speaker 1: So that in case we have to in the next meeting present something on the whiteboard?
+[03:34.5] Speaker 1: You want to go, Eileen, and
+[03:36.7] Speaker 2: Okay, I'll see what I can do.
+[03:38.2] Speaker 1: Without hanging yourself?
+[03:39.5] Speaker 2: See if I— see if I remember how to draw a kitty cat or a rabbit or something.
+[03:48.5] Speaker 1: And remember, you have to press so it works.
+[03:50.5] Speaker 2: So that it will work, okay.
+[03:52.9] Speaker 2: Um, well.
+[03:55.2] Speaker 2: Um, traditional kitty cat.
