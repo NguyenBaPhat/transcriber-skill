@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Đăng ký MCP "claudio" (Gemini nghe audio) vào Claude Code.
-# Dùng: bash setup_mcp.sh [--env-file PATH] [--model gemini-3.8-flash] [--name claudio] [--scope local|user|project] [--dry-run]
+# Dùng: bash setup_mcp.sh [--env-file PATH] [--model gemini-3.8-flash] [--name claudio] [--scope local|user|project] [--dry-run] [--skip-check]
+# Trước khi đăng ký, script chạy check_key.py (key "AIza…" hoặc "AQ.…" đều được); key hỏng thì dừng, không đổi cấu hình.
 # Không bao giờ in API key ra màn hình.
 set -euo pipefail
 
@@ -10,9 +11,11 @@ MODEL="gemini-3.8-flash"
 NAME="claudio"
 SCOPE="local"
 DRY=0
+SKIP_CHECK=0
 
 while [ $# -gt 0 ]; do
   case "$1" in
+    --skip-check) SKIP_CHECK=1; shift ;;
     --env-file) ENV_FILE="$2"; shift 2 ;;
     --model)    MODEL="$2"; shift 2 ;;
     --name)     NAME="$2"; shift 2 ;;
@@ -43,6 +46,15 @@ CA=""
 for c in /etc/ssl/certs/ca-certificates.crt /etc/pki/tls/certs/ca-bundle.crt /etc/ssl/cert.pem; do
   [ -f "$c" ] && { CA="$c"; break; }
 done
+
+# 3. Kiểm tra key dùng được trước khi ghi vào cấu hình (cả key "AIza…" và "AQ.…"); bỏ qua bằng --skip-check
+if [ "$SKIP_CHECK" = 0 ]; then
+  if ! GEMINI_API_KEY="$KEY" SSL_CERT_FILE="${CA:-${SSL_CERT_FILE:-}}" python3 -I "$HERE/check_key.py" --model "$MODEL"; then
+    echo "DỪNG: key không dùng được, chưa thay đổi cấu hình MCP. Sửa key rồi chạy lại (hoặc --skip-check để bỏ qua kiểm tra)." >&2
+    exit 1
+  fi
+fi
+
 ENV_ARGS=(-e "GEMINI_API_KEY=$KEY" -e "GEMINI_MODEL=$MODEL")
 [ -n "$CA" ] && ENV_ARGS+=(-e "SSL_CERT_FILE=$CA" -e "REQUESTS_CA_BUNDLE=$CA")
 
